@@ -1,0 +1,263 @@
+*{
+    margin:0;
+}
+body{
+    background-color:white;
+}
+
+#nature{
+    color:white;
+    background-color:rgb(41, 40, 40);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:fixed;
+    top:0;
+    height:45px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    font-size:30px;
+    font-weight:900;
+    text-shadow:5px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+    transition:all;
+    font-size: 20px;
+}
+a:hover{
+    color:skyblue;
+    
+}
+a:active{
+    color:aqua;
+}
+
+
+.navbar{
+    height:45px;
+    width:1300px;
+    background-color:rgb(19, 18, 18);
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   margin-top:45px;
+   position:fixed;
+   top:0px;
+}
+#mag{
+    background-color:orange;
+    width:50px;
+    height:40px;
+    margin-left:-130px;
+}
+i{
+    color:crimson;
+}
+
+
+
+
+
+input{
+    height:30px;
+    width:300px;
+}
+
+ 
+body{
+    background-image:url("https://cdn.mos.cms.futurecdn.net/6ZW3VY5dZJbYSD7FeAsKe6-1200-80.jpg");
+    height:500px;
+    margin-top:50px;
+    background-repeat:repeat-x;
+}
+#quote{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:chocolate;
+    margin-top:200px;
+    margin-left:900px;
+    font-weight:bolder;
+    font-size:21px;
+}
+#hottest{
+    color:purple;
+    margin-top:390px;
+    text-decoration:black double underline; 
+}
+#report{
+    color:black;
+    text-transform:capitalize;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+}
+#dabba{
+    height:40px;
+    width:40px;
+    display:inline-block;
+}
+#thehindu{
+    display:inline-block;
+   height:40px;
+   width:80px;
+}
+#para{
+    color:black;
+    margin-left:50px;
+    text-transform:capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+}
+#food{
+    color:purple;
+    text-decoration:black double underline;
+}
+#fpara{
+    color:black;
+    margin-left:50px;
+    text-transform:capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+}
+#dabbatwo{
+    height:25px;
+    width:42px;
+    display:inline-block;
+    background-color:black;
+    color:white;
+    
+}
+#ccri{
+    display:inline-block;
+    height:30px;
+}
+#dabbathree{
+    height:30px;
+    width:50px;
+    display:inline-block;
+}
+#nasa{
+    height:30px;
+    display:inline-block;
+}
+.gpara{
+    color:black;
+    margin-left:120px;
+    text-transform:capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+
+}
+#new{
+    color:black;
+    width:600px;
+    margin-left:120px;
+    text-transform:capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+}
+#glaciers{
+    color:purple;
+    text-decoration:black double underline;
+}
+#infrastructure{
+    color:purple;
+    text-decoration:black double underline;
+}
+#ipara{
+    color:black;
+    margin-left:120px;
+    text-transform:capitalize;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;
+    width:600px;
+}
+#bu{
+    height:30px;
+    width:100px;
+    margin-top:40px;
+    margin-left:1150px;
+    transition-property:all;
+    background-color:skyblue;
+}
+#bu:hover{
+    background-color:rgb(209, 58, 58);
+    border:2px solid black;
+}
+#sign{
+    text-decoration:none;
+    color:blue;
+}
+#foot{
+    background-color:black;
+    height:300px;
+    width:100%;
+    display:flex;
+}
+#fy{
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#first{
+    height:100px;
+    width:300px;
+    margin-left:40px;
+}
+#second{
+    height:300px;
+    width:600px;
+    margin-left:30px;
+}
+.list{
+    text-decoration:none;
+    transition-property:all;
+    color:skyblue;
+}
+.list:hover{
+    text-decoration:underline;
+    color:cadetblue;
+}
+li{
+    list-style-type:circle;
+    color:white;
+}
+#what{
+    color:skyblue;
+    transition-property:all;
+    text-decoration:none;
+}
+#what:hover{
+    color:cadetblue;
+    text-decoration:underline;
+}
+ul{
+    color:white;
+    font-size:25px;
+}
+#ln{
+    list-style-type:none;
+}
+#third{
+    height:50px;
+    width:150px;
+    margin-left:30px;
+}
+.ac{
+    color:skyblue;
+    text-decoration:none;
+}
+.ac:hover{
+    color:cadetblue;
+    text-decoration:underline;
+}
+#firs{
+    display:inline-block;
+    height:500px;
+    width:900px;
+}
+#seco{
+   display:inline-block; 
+}
