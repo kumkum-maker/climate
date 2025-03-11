@@ -10,6 +10,22 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <script>
+    let quiz= document.querySelectorAll('.quiz');
+let arr = Array.from(quiz);
+
+arr.forEach(button => {
+  button.addEventListener('click', () => {
+    let isCorrect = button.getAttribute('data-correct') === 'true';
+    let result = document.getElementById('result');
+    if (isCorrect) {
+      result.innerHTML = 'Correct!';
+    } else {
+      result.innerHTML = 'Wrong!';
+    }
+  });
+});
+  </script>
 </head>
 
 <body>
@@ -106,7 +122,15 @@ although the warm air and the warm water contribute to melting individually.</p>
       src="https://img.freepik.com/premium-vector/social-media-brands-logo-set-youtube-facebook-instagram-twitter-icons_628407-1962.jpg"
       height="70px" width="200px">
   </div>
-  
+
+  <H1>Let's Test how much you know about climate crisis</H1>
+  <H4>Question no. 1</H4>
+  <h5>How does Climate Change affect biodiversity</h5>
+  <button class="quiz" data-correct="true">It increases specific diversity</button>
+  <button class="quiz" data-correct="false">It has no effect</button>
+  <button class="quiz" data-correct="false">It leads to specific extinction</button>
+  <button calss="quiz" data-correct="false">It improves ecosystem</button>
+  <div id="result"> </div>
 </body>
 
 </html>
