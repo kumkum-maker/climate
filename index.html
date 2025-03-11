@@ -19,9 +19,9 @@ arr.forEach(button => {
     let isCorrect = button.getAttribute('data-correct') === 'true';
     let result = document.getElementById('result');
     if (isCorrect) {
-      result.innerHTML = 'Correct!';
+      result.innerHTML = "<span>correct</span>";
     } else {
-      result.innerHTML = 'Wrong!';
+      result.innerHTML = "<span>Wrong</span>";
     }
   });
 });
